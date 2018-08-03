@@ -21,7 +21,6 @@ img {
 }
 
 .panel > .panel-heading {
-  /* background-image: none; */
   background-color: #ff77c6;
   color: white;
 }
@@ -29,10 +28,9 @@ img {
 .panel {
   width: 50%;
   float: left;
-
 }
 
-.lead{
+.lead {
   text-align: justify;
   text-indent: inherit;
 }
