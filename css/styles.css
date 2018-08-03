@@ -1,9 +1,10 @@
 body {
-  background: #9bd800;
+  background: #99d600;
 }
 
 img {
   width: 100%;
+  height: 90%;
 }
 
 .panel-title {
@@ -14,6 +15,8 @@ img {
   /* margin-width: thick; */
   /* border-color: #133; */
   /* border: solid; */
+  text-align: center;
+  width: 97%
 }
 
 .panel-body {
@@ -22,9 +25,20 @@ img {
   border-color: #00d8bb;
   border-width: thick;
   border-style: groove;
+  padding: inherit;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
 }
 
 
 .changeColor {
-  color: #ff00e5;
+  color: #ff0090;
+}
+
+.container-fluid {
+  text-align-last: center;
+  text-shadow: .1em .1em #ffffff;
+  color: #ff0090;
 }
