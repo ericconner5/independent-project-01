@@ -1,6 +1,10 @@
 body {
-  background: #b3e82e;
+  background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_365004.jpg);
   font-family: "Comic Sans MS";
+  font-size: 1.2em;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
 }
 
 img {
@@ -10,41 +14,69 @@ img {
 
 .panel-title {
   color: black;
-  /* background-color: #00d8bb; */
-  margin-color: #00d8bb;
-  /* margin-style: groove; */
-  /* margin-width: thick; */
-  /* border-color: #133; */
-  /* border: solid; */
+  background-color: #f9b13b;
   text-align: center;
-  margin-bottom: inherit;
+  padding color: #333;
+  margin: .5em solid blue;
+}
+
+.panel > .panel-heading {
+  /* background-image: none; */
+  background-color: #ff77c6;
+  color: white;
+}
+
+.panel {
+  width: 50%;
+  float: left;
 
 }
 
+.lead{
+  text-align: justify;
+  text-indent: inherit;
+}
+
 .panel-body {
-  background-color: #f999fc;
+  background-color: #c17efc;
   font-size: 1.5em;
-  border-color: #00d8bb;
+  border-color: #bf5dfc;
   border-width: thick;
   border-style: groove;
   padding: inherit;
   text-align: center;
-  /* height: inherit; */
 }
+
 ul {
   list-style-type: none;
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: orange;
+  display: run-in;
 }
 
 ol {
+  padding-top: .5em;
   text-align: center;
   list-style-position: inside;
+  font-size: 1.4em;
 }
+
 .changeColor {
-  color: #ff0090;
+  color: #ff7f59;
+  font-weight: bold;
+  text-shadow: .1em .1em grey;
 }
 
 .container-fluid {
   text-align-last: center;
   text-shadow: .1em .1em #ffffff;
   color: #ff0090;
+  font-size: 1.3em;
+}
+
+a {
+  font-size: 1.75em;
+  color: #ff5900;
 }
