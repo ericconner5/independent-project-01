@@ -1,9 +1,30 @@
 body {
-  background: #00aabb;
+  background: #9bd800;
 }
 
 img {
-  width: 100%
+  width: 100%;
+}
+
+.panel-title {
+  color: black;
+  /* background-color: #00d8bb; */
+  margin-color: #00d8bb;
+  /* margin-style: groove; */
+  /* margin-width: thick; */
+  /* border-color: #133; */
+  /* border: solid; */
+}
+
+.panel-body {
+  background-color: #f999fc;
+  font-size: 1.5em;
+  border-color: #00d8bb;
+  border-width: thick;
+  border-style: groove;
+}
 
 
+.changeColor {
+  color: #ff00e5;
 }
