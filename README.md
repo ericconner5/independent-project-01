@@ -7,6 +7,7 @@
 ## Description
 
 This is a very basic webpage designed to demonstrate the concepts covered in the first week of class at Epicodus. It displays some Lorem Ipsum text with some css stylings using Bootstrap.
+Check out a live version here: https://ericconner5.github.io/independent-project-01/
 
 ## Setup/Installation Requirements
 
